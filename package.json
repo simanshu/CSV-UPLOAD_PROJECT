@@ -1,0 +1,23 @@
+{
+  "name": "csvfileproject",
+  "version": "1.0.0",
+  "description": "this is project for upload csv file and display",
+  "main": "aap.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simanshu Chaubey",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "csvjson": "^5.1.0",
+    "csvtojson": "^2.0.10",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "fs": "^0.0.1-security",
+    "mongoose": "^7.5.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1"
+  }
+}
