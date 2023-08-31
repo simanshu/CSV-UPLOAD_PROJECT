@@ -1,0 +1,15 @@
+<!-- common layout for all ejs files -->
+<html>
+  <head>
+    <title>
+      <%= title %>
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <%- include('_header'); %> <%- body %>
+  </body>
+</html>
